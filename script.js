@@ -63,22 +63,7 @@ document.querySelectorAll(".reveal").forEach((el, i) => {
   revealObs.observe(el);
 });
 
-// ---------- Planos: mensal / trimestral ----------
-document.querySelectorAll(".billing__btn").forEach((btn) =>
-  btn.addEventListener("click", () => {
-    document.querySelectorAll(".billing__btn").forEach((b) => b.classList.toggle("active", b === btn));
-    const period = btn.dataset.period;
-    document.querySelectorAll(".plan__price span").forEach((span) => {
-      span.style.opacity = 0;
-      setTimeout(() => {
-        span.textContent = span.dataset[period];
-        span.style.opacity = 1;
-      }, 200);
-    });
-  })
-);
-
-// Clicar em "Escolher plano" já preenche o formulário
+// Clicar em "Consultar valores" já preenche o plano no formulário
 document.querySelectorAll("[data-plan]").forEach((btn) =>
   btn.addEventListener("click", () => (document.getElementById("cPlano").value = btn.dataset.plan))
 );
