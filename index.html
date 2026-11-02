@@ -25,14 +25,11 @@
         <a href="#planos" class="nav__link">Planos</a>
         <a href="#como-funciona" class="nav__link">Como Funciona</a>
         <a href="#sobre" class="nav__link">Sobre</a>
+        <a href="#avaliacoes" class="nav__link">Avaliações</a>
         <a href="#faq" class="nav__link">FAQ</a>
       </nav>
 
       <div class="header__actions">
-        <a href="#contato" class="btn btn--outline btn--sm">
-          Área do Aluno
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6 8-6s8 2 8 6"/></svg>
-        </a>
         <a href="#contato" class="btn btn--primary btn--sm">
           Agendar Avaliação
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="m9 18 6-6-6-6"/></svg>
@@ -70,36 +67,6 @@
           <div class="hero__blob"></div>
           <div class="hero__photo">
             <img src="saimon.webp" alt="Saimon Souza, personal trainer" />
-          </div>
-
-          <div class="float-card float-card--trainer">
-            <div class="float-card__head">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 21h8M12 17v4M7 4h10v5a5 5 0 0 1-10 0V4Z"/><path d="M17 5h3v2a3 3 0 0 1-3 3M7 5H4v2a3 3 0 0 0 3 3"/></svg>
-              Alunos Ativos
-            </div>
-            <div class="avatars">
-              <span style="--c:#e63946">MR</span><span style="--c:#f1faee;--t:#111">AL</span><span style="--c:#457b9d">JP</span><span style="--c:#9d0208">CS</span>
-              <b>120+</b>
-            </div>
-          </div>
-
-          <div class="float-card float-card--time">
-            <div class="float-card__head">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l2 2M9 2h6"/></svg>
-              Treino de Hoje
-            </div>
-            <p>HIIT · 45 minutos</p>
-          </div>
-
-          <div class="float-card float-card--cal">
-            <div class="float-card__head">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2 4 14h7l-1 8 9-12h-7l1-8Z"/></svg>
-              Calorias Diárias
-            </div>
-            <div class="bars">
-              <i style="--h:20%"></i><i style="--h:45%"></i><i style="--h:85%"></i><i style="--h:65%"></i><i style="--h:95%"></i><i style="--h:55%"></i><i style="--h:35%"></i><i style="--h:100%"></i>
-            </div>
-            <p class="cal-value"><span data-count="640">0</span> kcal</p>
           </div>
         </div>
       </div>
@@ -248,30 +215,25 @@
         <div class="section__head reveal">
           <span class="eyebrow">Planos</span>
           <h2>Escolha o plano <span class="text-red">ideal</span> para você</h2>
-          <div class="billing" role="group" aria-label="Período de cobrança">
-            <button class="billing__btn active" data-period="mensal">Mensal</button>
-            <button class="billing__btn" data-period="trimestral">Trimestral <small>-10%</small></button>
-          </div>
+          <p>Fale comigo para receber os valores e montar o plano que cabe na sua rotina.</p>
         </div>
 
         <div class="plans">
           <div class="plan reveal">
             <h3>Online</h3>
             <p class="plan__desc">Para quem quer autonomia com direção profissional.</p>
-            <div class="plan__price">R$ <span data-mensal="197" data-trimestral="177">197</span><small>/mês</small></div>
             <ul>
               <li>Treino personalizado no app</li>
               <li>Vídeos de execução</li>
               <li>Suporte por mensagem</li>
               <li>Reavaliação mensal online</li>
             </ul>
-            <a href="#contato" class="btn btn--outline btn--block" data-plan="Online">Escolher plano</a>
+            <a href="#contato" class="btn btn--outline btn--block" data-plan="Online">Consultar valores</a>
           </div>
           <div class="plan plan--featured reveal">
             <span class="plan__ribbon">Mais escolhido</span>
             <h3>Híbrido</h3>
             <p class="plan__desc">O melhor dos dois mundos: presencial + online.</p>
-            <div class="plan__price">R$ <span data-mensal="497" data-trimestral="447">497</span><small>/mês</small></div>
             <ul>
               <li>4 aulas presenciais por mês</li>
               <li>Treino complementar no app</li>
@@ -279,19 +241,18 @@
               <li>Chamada de vídeo quinzenal</li>
               <li>Suporte prioritário</li>
             </ul>
-            <a href="#contato" class="btn btn--primary btn--block" data-plan="Híbrido">Escolher plano</a>
+            <a href="#contato" class="btn btn--primary btn--block" data-plan="Híbrido">Consultar valores</a>
           </div>
           <div class="plan reveal">
             <h3>Premium</h3>
             <p class="plan__desc">Acompanhamento total para resultados acelerados.</p>
-            <div class="plan__price">R$ <span data-mensal="997" data-trimestral="897">997</span><small>/mês</small></div>
             <ul>
               <li>12 aulas presenciais por mês</li>
               <li>Plano alimentar completo</li>
               <li>Avaliação física quinzenal</li>
               <li>Suporte diário no WhatsApp</li>
             </ul>
-            <a href="#contato" class="btn btn--outline btn--block" data-plan="Premium">Escolher plano</a>
+            <a href="#contato" class="btn btn--outline btn--block" data-plan="Premium">Consultar valores</a>
           </div>
         </div>
       </div>
@@ -336,6 +297,48 @@
       </div>
     </section>
 
+    <!-- ============ AVALIAÇÕES ============ -->
+    <section class="section" id="avaliacoes">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="eyebrow">Avaliações</span>
+          <h2>Deixe sua <span class="text-red">avaliação</span></h2>
+          <p>Treinou com o Saimon? Conte como foi a sua experiência e ajude outras pessoas a darem o primeiro passo.</p>
+        </div>
+
+        <div class="reviews">
+          <aside class="reviews__side reveal">
+            <div class="reviews__summary">
+              <strong id="revAvg">–</strong>
+              <div>
+                <div class="stars-static" id="revAvgStars"></div>
+                <small id="revCount">Nenhuma avaliação ainda</small>
+              </div>
+            </div>
+            <div class="reviews__dist" id="revDist"></div>
+
+            <form class="review-form" id="reviewForm">
+              <label>Sua nota
+                <div class="star-input" id="starInput" role="radiogroup" aria-label="Nota de 1 a 5 estrelas">
+                  <button type="button" data-v="1" aria-label="1 estrela">★</button>
+                  <button type="button" data-v="2" aria-label="2 estrelas">★</button>
+                  <button type="button" data-v="3" aria-label="3 estrelas">★</button>
+                  <button type="button" data-v="4" aria-label="4 estrelas">★</button>
+                  <button type="button" data-v="5" aria-label="5 estrelas">★</button>
+                </div>
+              </label>
+              <label>Nome<input type="text" id="rNome" maxlength="40" placeholder="Seu nome" required /></label>
+              <label>Comentário<textarea id="rTexto" rows="4" maxlength="500" placeholder="Como foi treinar com o Saimon?" required></textarea></label>
+              <button type="submit" class="btn btn--primary btn--block">Enviar avaliação</button>
+              <p class="form-msg" id="reviewMsg" role="status"></p>
+            </form>
+          </aside>
+
+          <div class="reviews__list reveal" id="revList"></div>
+        </div>
+      </div>
+    </section>
+
     <!-- ============ FAQ ============ -->
     <section class="section" id="faq">
       <div class="container faq">
@@ -348,7 +351,7 @@
           <details><summary>Como funciona a consultoria online?</summary><p>Você recebe sua planilha no app com vídeos de cada exercício, envia feedbacks e tem chamadas de vídeo periódicas para ajustes.</p></details>
           <details><summary>Onde acontecem as aulas presenciais?</summary><p>Em academias parceiras, no seu condomínio ou ao ar livre. Combinamos o melhor local durante a avaliação.</p></details>
           <details><summary>Em quanto tempo vejo resultados?</summary><p>Com constância, a maioria dos alunos percebe mudanças em 4 a 6 semanas e resultados expressivos em 3 meses.</p></details>
-          <details><summary>Posso cancelar quando quiser?</summary><p>Sim. O plano mensal pode ser cancelado a qualquer momento. O trimestral tem desconto e garante a continuidade do seu progresso.</p></details>
+          <details><summary>Posso cancelar quando quiser?</summary><p>As condições de cada plano são combinadas com você, de forma transparente, antes de começar.</p></details>
         </div>
       </div>
     </section>
@@ -391,7 +394,7 @@
         <span class="logo__crop logo__crop--lg"><img src="logo.webp" alt="Logo Saimon Souza" /></span>
         <p>Treinamento personalizado com método, ciência e acompanhamento de perto.</p>
       </div>
-      <div><h4>Navegação</h4><a href="#servicos">Serviços</a><a href="#planos">Planos</a><a href="#sobre">Sobre</a><a href="#faq">FAQ</a></div>
+      <div><h4>Navegação</h4><a href="#servicos">Serviços</a><a href="#planos">Planos</a><a href="#sobre">Sobre</a><a href="#avaliacoes">Avaliações</a><a href="#faq">FAQ</a></div>
       <div><h4>Contato</h4><a href="https://wa.me/5519999288853" target="_blank" rel="noopener">(19) 99928-8853</a><a href="https://www.instagram.com/saimon.souzaa" target="_blank" rel="noopener">@saimon.souzaa</a><a href="#contato">São Paulo · SP</a></div>
     </div>
     <div class="container footer__bottom">© <span id="year"></span> Saimon Souza Personal Trainer. Todos os direitos reservados.</div>
